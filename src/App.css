@@ -1,0 +1,100 @@
+.tvshow-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.input-container::placeholder {
+  color: #a69ad4;
+}
+
+
+@media screen and (max-width:650px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 2.3rem;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .input-container {
+    width: 100%;
+  }
+
+  .searchAndcategories {
+    width: 100%;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .categories {
+    width: auto;
+    font-size: 1.2rem;
+
+  }
+
+  .category-div {
+    background-color: #2D284A;
+    color: #E0DFFF;
+    background-color: #2A2445;
+    color: #CFCFEA;
+    padding: 5px 13px;
+    border-radius: 10px;
+  }
+
+}
+
+@media screen and (max-width:460px) {
+  .categories {
+    font-size: 0.9rem;
+    gap: 45px;
+  }
+
+}
+
+/* 
+
+  if you want 2 movie-card in mobile screen 
+
+ @500px
+ .movielist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .movie-card {
+    height: 350px;
+    width: 200px;
+    padding: 5px;
+  }
+
+  .movie-desc {
+    padding: 0;
+  }
+
+  .movietitle {
+    font-size: 8px;
+  }
+
+  .card-image {
+    height: 300px;
+  }
+
+  .rate-date {
+    font-size: 10px;
+  } */
+
+
+/* 
+  @460px 
+   .movie-card {
+    height: 300px;
+    width: 170px;
+    padding: 5px;
+  } */
