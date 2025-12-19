@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { GenresContext } from "@/context/genres.context";
 import { useContext } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 
 const genreList = [
