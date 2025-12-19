@@ -5,7 +5,7 @@ import SearchList from "@/components/SearchList"
 import Trending from "@/components/Trending/Trending"
 import TvShowList from "@/components/TvShowList"
 import TvShowPlayer from "@/components/TvShowPlayer"
-import { Route, Routes } from "react-router"
+import { Route, Routes } from "react-router-dom"
 
 
 const AllRoutes = () => {

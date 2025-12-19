@@ -43,7 +43,7 @@ const navbar = () => {
               value={searchText}
               onChange={handleChange}
             />
-          </form>
+          </form> 
 
           <div className="md:block category-div font-semibold ">
             <div className=" categories flex gap-6 items-center">
