@@ -2,13 +2,18 @@ import apiClient from "@/services/api-client"
 import { useEffect, useState } from "react"
 
 
-const useTrendingList = (trending : string = "movie") =>{
+interface TrendingResponse<T> {
+  results: T[];
+}
 
-    const [trendingData, setTrendingData] = useState();
+
+const useTrendingList = <T,>(trending : string = "movie") =>{
+
+    const [trendingData, setTrendingData] = useState<T[]>([]);
 
     const fetchTrending = async () =>{
         try {
-            const res = await apiClient.get(`trending/${trending}/day`);
+            const res = await apiClient.get<TrendingResponse<T>>(`trending/${trending}/day`);
             setTrendingData(res.data.results);
         } catch (error) {
             console.log(error);

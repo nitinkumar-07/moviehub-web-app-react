@@ -102,7 +102,7 @@ const Genres = () => {
     // console.log(genreName);
 
 
-    const onChange = (data) => {
+    const onChange = (data:number) => {
         setGenres(data);
         navigate(`/genres/movies`);
     };

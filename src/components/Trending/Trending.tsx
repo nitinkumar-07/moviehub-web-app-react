@@ -1,4 +1,4 @@
-import React from 'react'
+
 import TrendingMovie from './TrendingMovie'
 import TrendingTv from './TrendingTv'
 

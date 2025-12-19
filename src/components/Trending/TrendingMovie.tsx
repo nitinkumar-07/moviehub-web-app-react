@@ -1,16 +1,15 @@
-// @ts-nocheck
-
 import useTrendingList from '@/hooks/useTrending'
 import { MdOutlineExpandMore } from "react-icons/md";
 import MovieCard from '../MovieCard';
 import { useState } from 'react';
+import type { MovieResult } from "@/hooks/useMovies";
 
 const TrendingMovie = () => {
-    const { trendingData } = useTrendingList("movie");
+    const { trendingData } = useTrendingList<MovieResult>("movie");
     //console.log(trendingData);
     const [expand, setExpand] = useState(false);
 
-    return (
+    return ( 
         <div className='p-3 mb-4'>
 
             <div className='flex items-center cursor-pointer' onClick={() => setExpand(!expand)}>
