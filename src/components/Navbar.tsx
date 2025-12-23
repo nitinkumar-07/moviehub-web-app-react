@@ -48,10 +48,7 @@ const Navbar = () => {
           <div className="md:block category-div font-semibold ">
             <div className=" categories flex gap-6 items-center">
               <Genres />
-              <Link to={'/movies'} onClick={() => {
-                setGenres(null);
-                setGenreName(null)
-              }}>
+              <Link to={'/movies'} >
 
                 <div className={`text-[#cfc7f5]`}>
                   Movies
