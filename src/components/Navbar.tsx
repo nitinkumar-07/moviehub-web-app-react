@@ -7,7 +7,7 @@ import "../App.css";
 import { useContext } from "react";
 import { searchResultContext } from "@/context/searchResult.context";
 
-const navbar = () => {
+const Navbar = () => {
 
   const navigate = useNavigate();
   const { searchText, setSearchText } = useContext(searchResultContext);
@@ -43,15 +43,16 @@ const navbar = () => {
               value={searchText}
               onChange={handleChange}
             />
-          </form> 
+          </form>
 
           <div className="md:block category-div font-semibold ">
             <div className=" categories flex gap-6 items-center">
               <Genres />
-              <Link to={`/movies`} onClick={() => {
+              <Link to={'/movies'} onClick={() => {
                 setGenres(null);
                 setGenreName(null)
-               }}>
+              }}>
+
                 <div className={`text-[#cfc7f5]`}>
                   Movies
                 </div>
@@ -61,6 +62,7 @@ const navbar = () => {
               <Link to={'/tvshows'}>
                 <div className="text-[#cfc7f5]">TvShows</div>
               </Link>
+
             </div>
           </div>
 
@@ -73,6 +75,6 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
 
 // onClick={()=> setGenreName(genre.name)}
