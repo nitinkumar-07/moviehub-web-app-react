@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const MovieList = () => {
 
-    const { genres, genreName } = useContext(GenresContext);
+    const { genres, genreName , setGenres, setGenreName } = useContext(GenresContext);
     const { movieLists } = useMovieList(genres);
     //console.log(movieLists)
 
