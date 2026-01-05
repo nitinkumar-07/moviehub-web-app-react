@@ -110,7 +110,7 @@ const Genres = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <h1 className="cursor-pointer text-[#cfc7f5]">  {!genres ? "Genres" : genreName }</h1>
+                <h1 className="cursor-pointer text-[#1d175c] dark:text-[#cfc7f5]">  {!genres ? "Genres" : genreName }</h1>
             </DropdownMenuTrigger>
 
             <DropdownMenuContent className="w-52 border-none">

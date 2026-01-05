@@ -28,8 +28,8 @@ const TrendingTv = () => {
         <div className='p-3 mb-4'>
  
             <div className='flex items-center cursor-pointer' onClick={() => setExpand(!expand)}>
-                <h1 className='text-2xl font-semibold p-3 py-2 text-[#cfc7f5]'>Trending Tvshows</h1>
-                <span className='text-2xl text-[#cfc7f5]'><MdOutlineExpandMore />
+                <h1 className='text-2xl font-semibold p-3 py-2 text-[#2c2576] dark:text-[#cfc7f5]'>Trending Tvshows</h1>
+                <span className='text-2xl dark:text-[#cfc7f5] text-[#40366e]'><MdOutlineExpandMore />
                 </span>
             </div>
 

@@ -18,7 +18,7 @@ const SearchList = () => {
 
     if (!filtered || filtered.length === 0) {
         return (
-            <div className="text-center text-[#cfc7f5] text-2xl mt-16">
+            <div className="text-center dark:text-[#cfc7f5] text-2xl mt-16">
                 No results found for <span className="text-red-400 bg-">{searchText}</span> 
             </div>
         );
