@@ -21,15 +21,17 @@ Users can explore trending movies, TV shows, search for content, filter by genre
 
 *https://moviehub0.netlify.app/*
 
-🛠️ Tech Stack
-Technology	  Usage
-React	        Frontend Framework
-TypeScript	  Type Safety
-React Router	Navigation
-Context API	  Global State
-TMDB API	    Movie & TV data
-Tailwind CSS	Styling
-Axios	        API requests
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|------|
+| React | Frontend Framework |
+| TypeScript | Type Safety |
+| React Router | Navigation |
+| Context API | Global State |
+| TMDB API | Movie & TV data |
+| Tailwind CSS | Styling |
+| Axios | API requests |
 
 ##📂 Project Structure
 
