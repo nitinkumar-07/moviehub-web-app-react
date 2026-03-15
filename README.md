@@ -82,13 +82,13 @@ src
 This project uses The Movie Database (TMDB) API
 
 Endpoints used:
-``
+```bash
 /trending/movie/day
 /trending/tv/day
 /discover/movie
 /discover/tv
 /search/multi
-``
+```
 
 ## 🧠 Learnings
 
@@ -120,7 +120,7 @@ Endpoints used:
 
 ## 👨‍💻 Author
 
-Nitin Kumar
+## Nitin Kumar
 
 🔗 GitHub
 
