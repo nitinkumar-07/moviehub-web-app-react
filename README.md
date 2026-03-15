@@ -33,40 +33,42 @@ Users can explore trending movies, TV shows, search for content, filter by genre
 | Tailwind CSS | Styling |
 | Axios | API requests |
 
-##📂 Project Structure
+## 📂 Project Structure
 
+```bash
 src
 │
 ├── components
-│ ├── Genres.tsx
-│ ├── MovieCard.tsx
-│ ├── MovieList.tsx
-│ ├── MoviePlayer.tsx
-│ ├── Navbar.tsx
-│ ├── SearchList.tsx
-│ ├── TvShowCard.tsx
-│ ├── TvShowList.tsx
-│ ├── TvShowPlayer.tsx
-│ └── Trending
-│ ├── Trending.tsx
-│ ├── TrendingMovie.tsx
-│ └── TrendingTv.tsx
+│   ├── Genres.tsx
+│   ├── MovieCard.tsx
+│   ├── MovieList.tsx
+│   ├── MoviePlayer.tsx
+│   ├── Navbar.tsx
+│   ├── SearchList.tsx
+│   ├── TvShowCard.tsx
+│   ├── TvShowList.tsx
+│   ├── TvShowPlayer.tsx
+│   └── Trending
+│       ├── Trending.tsx
+│       ├── TrendingMovie.tsx
+│       └── TrendingTv.tsx
 │
 ├── context
-│ ├── genres.context.tsx
-│ ├── searchResult.context.tsx
-│ └── theme.context.tsx
+│   ├── genres.context.tsx
+│   ├── searchResult.context.tsx
+│   └── theme.context.tsx
 │
 ├── hooks
-│ ├── useMovies.ts
-│ ├── useTvShow.ts
-│ ├── useTrending.ts
-│ └── useMultiSearch.ts
+│   ├── useMovies.ts
+│   ├── useTvShow.ts
+│   ├── useTrending.ts
+│   └── useMultiSearch.ts
 │
 ├── routes
-│ └── AllRoutes.tsx
+│   └── AllRoutes.tsx
 │
 ├── services
-│ └── api-client.ts
+│   └── api-client.ts
 │
 └── App.tsx
+```
