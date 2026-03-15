@@ -94,6 +94,11 @@ src
 
 <img width="1899" height="967" alt="Image" src="https://github.com/user-attachments/assets/7d88e967-abee-49b7-8827-fd0eb0b036c2" />
 
+## 🔎 Search
+
+<img width="1903" height="961" alt="Image" src="https://github.com/user-attachments/assets/c63248e0-ff93-434a-9adc-189b4e2fe70e" />
+
+
 ## 📡 API Used
 
 This project uses The Movie Database (TMDB) API
