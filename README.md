@@ -38,27 +38,35 @@ Users can explore trending movies, TV shows, search for content, filter by genre
 src
 │
 ├── components
-│ ├── MovieCard
-│ ├── TvShowCard
-│ ├── MovieList
-│ ├── TvShowList
-│ ├── Navbar
-│ ├── SearchList
+│ ├── Genres.tsx
+│ ├── MovieCard.tsx
+│ ├── MovieList.tsx
+│ ├── MoviePlayer.tsx
+│ ├── Navbar.tsx
+│ ├── SearchList.tsx
+│ ├── TvShowCard.tsx
+│ ├── TvShowList.tsx
+│ ├── TvShowPlayer.tsx
+│ └── Trending
+│ ├── Trending.tsx
+│ ├── TrendingMovie.tsx
+│ └── TrendingTv.tsx
 │
 ├── context
-│ ├── GenresContext
-│ ├── SearchContext
-│ ├── ThemeContext
+│ ├── genres.context.tsx
+│ ├── searchResult.context.tsx
+│ └── theme.context.tsx
 │
 ├── hooks
-│ ├── useMovies
-│ ├── useTvShow
-│ ├── useTrending
-│ ├── useMultiSearch
+│ ├── useMovies.ts
+│ ├── useTvShow.ts
+│ ├── useTrending.ts
+│ └── useMultiSearch.ts
 │
 ├── routes
-│ ├── AllRoutes
+│ └── AllRoutes.tsx
 │
-└── services
-├── api-client
-
+├── services
+│ └── api-client.ts
+│
+└── App.tsx
