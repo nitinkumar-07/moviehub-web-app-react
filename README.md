@@ -76,3 +76,57 @@ src
 # 📸 Screenshots
 ## 🏠 Home (Trending)
 
+
+## 📡 API Used
+
+This project uses The Movie Database (TMDB) API
+
+Endpoints used:
+``
+/trending/movie/day
+/trending/tv/day
+/discover/movie
+/discover/tv
+/search/multi
+``
+
+## 🧠 Learnings
+
+• While building this project, I practiced:
+
+• React component architecture
+
+• Custom React Hooks
+
+• API data fetching
+
+• Context API state management
+
+• Dynamic routing with React Router
+
+• UI design using TailwindCSS
+
+## 📌 Future Improvements
+
+• Movie details page
+
+• Watchlist / Favorites
+
+• Pagination
+
+• Skeleton loading
+
+• Trailer integration
+
+## 👨‍💻 Author
+
+Nitin Kumar
+
+🔗 GitHub
+
+https://github.com/nitinkumar-07
+
+
+🔗 LinkedIn
+
+https://www.linkedin.com/in/nitin-kumar-491813336/
