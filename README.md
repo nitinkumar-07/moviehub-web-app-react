@@ -76,9 +76,23 @@ src
 # 📸 Screenshots
 ## 🏠 Home (Trending) 
 
-## soon....
- 
+<img width="1902" height="971" alt="Image" src="https://github.com/user-attachments/assets/41a68296-b1f6-46af-8e83-1bc296cd2d46" />
 
+## 🎬 Trending TvShows
+
+<img width="1893" height="959" alt="Image" src="https://github.com/user-attachments/assets/09b693d4-e0b0-4c17-b139-fbada378985e" />
+
+## 🎬 Movie List
+
+<img width="1897" height="958" alt="Image" src="https://github.com/user-attachments/assets/969772fe-df6b-4e04-a42b-fae136f1b917" />
+
+## 📺 TV Shows
+
+<img width="1894" height="961" alt="Image" src="https://github.com/user-attachments/assets/3ebd4873-25ce-4c71-8159-6337e6d67c35" />
+
+## ✨ Genre 
+
+<img width="1899" height="967" alt="Image" src="https://github.com/user-attachments/assets/7d88e967-abee-49b7-8827-fd0eb0b036c2" />
 
 ## 📡 API Used
 
