@@ -30,3 +30,33 @@ Context API	  Global State
 TMDB API	    Movie & TV data
 Tailwind CSS	Styling
 Axios	        API requests
+
+##📂 Project Structure
+
+src
+│
+├── components
+│ ├── MovieCard
+│ ├── TvShowCard
+│ ├── MovieList
+│ ├── TvShowList
+│ ├── Navbar
+│ ├── SearchList
+│
+├── context
+│ ├── GenresContext
+│ ├── SearchContext
+│ ├── ThemeContext
+│
+├── hooks
+│ ├── useMovies
+│ ├── useTvShow
+│ ├── useTrending
+│ ├── useMultiSearch
+│
+├── routes
+│ ├── AllRoutes
+│
+└── services
+├── api-client
+
