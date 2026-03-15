@@ -72,3 +72,7 @@ src
 │
 └── App.tsx
 ```
+
+# 📸 Screenshots
+## 🏠 Home (Trending)
+
