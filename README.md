@@ -74,9 +74,10 @@ src
 ```
 
 # 📸 Screenshots
-## 🏠 Home (Trending)
+## 🏠 Home (Trending) 
 
-""
+## soon....
+ 
 
 
 ## 📡 API Used
